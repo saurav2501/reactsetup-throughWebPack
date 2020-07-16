@@ -1,11 +1,11 @@
 # reactsetup-throughWebPack
 
-Welcome to the reactsetup-throughWebPack wiki!
+Welcome to the reactsetup-throughWebPack
 
 This repository includes following implementation :
 
-React Project setup through webpack and babel
+1) React Project setup through webpack and babel
 
-React router setup
+2) React router setup
 
-Redux using redux-hooks
+3) Redux using redux-hooks
