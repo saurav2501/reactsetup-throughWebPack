@@ -1,8 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-const App = () => (
-    <div>
-        <h1>Hello world!!</h1>
-    </div>
-)
-ReactDOM.render(<App />, document.getElementById('root'));
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Root from "./root";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Root />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
