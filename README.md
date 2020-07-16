@@ -9,3 +9,6 @@ This repository includes following implementation :
 2) React router setup
 
 3) Redux using redux-hooks
+
+Run project :
+   npm start
