@@ -1,12 +1,18 @@
 const path = require("path");
 const HWP = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const port = process.env.PORT || 7000;
 
 module.exports = {
   entry: path.join(__dirname, "/src/index.js"),
   output: {
     filename: "build.js",
     path: path.join(__dirname, "/dist"),
+  },
+  devServer: {
+    port: port,
+    historyApiFallback: true,
+    open: true,
   },
   module: {
     rules: [
